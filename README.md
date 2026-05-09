@@ -50,7 +50,10 @@ Ollama: Es el motor que permite ejecutar modelos de lenguaje de gran tamaño (LL
 
 Aceleración por GPU: Si dispones de una tarjeta gráfica NVIDIA y tienes instalado el NVIDIA Container Toolkit, puedes descomentar las líneas bajo deploy para que la IA se ejecute de forma mucho más rápida. Existen más formas de configurar los recursos según la documentación oficial de Docker sobre despliegues: https://docs.docker.com/reference/compose-file/deploy/
 
-Este es el listado de hardware compatible con Ollama para usar nuestra GPU: https://docs.ollama.com/gpu
+Este es el listado de hardware compatible con Ollama para usar nuestra GPU: 
+
+https://docs.ollama.com/gpu
+
 https://developer.nvidia.com/cuda/gpus
 
 Esta es la guia de instalación del kit de herramientas de Nvidia para utilizar la GPU en contenedores Docker o Kubernetes: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
