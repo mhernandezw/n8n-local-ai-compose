@@ -92,7 +92,15 @@ En el campo de configuración de la URL, debes indicar la ruta interna del conte
 
 No es necesario indicar ningún Token, ya que la ejecución es en local y no requiere autenticación en este entorno. Guarda la credencial.
 
+<img width="1198" height="748" alt="image" src="https://github.com/user-attachments/assets/efa6869e-dcbf-4f5c-b2fd-2398b4ba6ef0" />
+
+
 Al crear un flujo (Workflow), podrás añadir un nodo de AI Agent. En la configuración del agente, selecciona Ollama Chat Model como tu modelo de IA. El nodo se conectará a la API y te permitirá seleccionar directamente en un desplegable los modelos locales que hayas descargado previamente (ej. gemma4:e2b).
+
+<img width="767" height="395" alt="image" src="https://github.com/user-attachments/assets/9d98413d-0104-4ded-b107-8eac252f8d72" />
+
+<img width="1241" height="422" alt="image" src="https://github.com/user-attachments/assets/a090913b-c118-4b30-9f0f-14863d665c86" />
+
 
 
 ## 6. Gestión de Memoria y Chats
