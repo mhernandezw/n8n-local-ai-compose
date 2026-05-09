@@ -49,8 +49,10 @@ Traefik y n8n: El contenedor de n8n es el núcleo de nuestra automatización. Pa
 Ollama: Es el motor que permite ejecutar modelos de lenguaje de gran tamaño (LLMs) localmente. Hemos mapeado el puerto 11434 y configurado un volumen persistente (ollama_data) para no perder los modelos descargados al reiniciar.
 
 Aceleración por GPU: Si dispones de una tarjeta gráfica NVIDIA y tienes instalado el NVIDIA Container Toolkit, puedes descomentar las líneas bajo deploy para que la IA se ejecute de forma mucho más rápida. Existen más formas de configurar los recursos según la documentación oficial de Docker sobre despliegues: https://docs.docker.com/reference/compose-file/deploy/
+
 Este es el listado de hardware compatible con Ollama para usar nuestra GPU: https://docs.ollama.com/gpu
 https://developer.nvidia.com/cuda/gpus
+
 Esta es la guia de instalación del kit de herramientas de Nvidia para utilizar la GPU en contenedores Docker o Kubernetes: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
 Open-WebUI: Proporciona una interfaz gráfica estilo ChatGPT para interactuar con los modelos descargados en Ollama. El contenedor expone el puerto 3000 (que internamente redirige al 8080 del contenedor) y utiliza la variable de entorno OLLAMA_BASE_URL=http://ollama:11434 para conectarse directamente al contenedor de Ollama de forma automática.
