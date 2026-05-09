@@ -74,6 +74,8 @@ Antes de poder usar la IA en n8n, necesitas descargar al menos un modelo local.
 
 Desde el panel de administración o la sección de configuración de modelos de Open-WebUI, busca la opción para descargar un modelo (Pull a model). Introduce el nombre del modelo que desees, por ejemplo gemma4:e2b (u otros como llama3, phi3), y haz clic en descargar.
 
+Para consultar el listado de modelos disponibles consultar la siguiente URL: https://ollama.com/library 
+
 
 ## 5. Integración de Ollama en n8n
 Una vez que tengas tu modelo descargado y funcionando, integrarlo en tus flujos de automatización es muy sencillo:
