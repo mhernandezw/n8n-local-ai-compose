@@ -74,11 +74,10 @@ Antes de poder usar la IA en n8n, necesitas descargar al menos un modelo local.
 
 Desde el panel de administración o la sección de configuración de modelos de Open-WebUI, busca la opción para descargar un modelo (Pull a model). Introduce el nombre del modelo que desees, por ejemplo gemma4:e2b (u otros como llama3, phi3), y haz clic en descargar.
 
-<img width="958" height="404" alt="image" src="https://github.com/user-attachments/assets/0dc52f87-fd71-4e50-b33e-b5d4161fc556" />
-
-
 Para consultar el listado de modelos disponibles consultar la siguiente URL: https://ollama.com/library 
 
+
+<img width="958" height="404" alt="image" src="https://github.com/user-attachments/assets/0dc52f87-fd71-4e50-b33e-b5d4161fc556" />
 
 
 
